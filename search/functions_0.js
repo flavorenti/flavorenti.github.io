@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['print_0',['Print',['../classVCtopology3D.html#aa59f0e030403108fc0746e4dc25fe77c',1,'VCtopology3D']]],
-  ['printmapping_1',['PrintMapping',['../classVCtopology3D.html#a275c2804991619c02661c9d957c74c90',1,'VCtopology3D']]]
+  ['bcface_0',['BCface',['../BcFields3D_8h.html#a31538eaf6c70b398e099056fd4221a71',1,'BCface(int nx, int ny, int nz, double ***vector, int bcFaceXright, int bcFaceXleft, int bcFaceYright, int bcFaceYleft, int bcFaceZright, int bcFaceZleft, const VirtualTopology3D *vct):&#160;BcFields3D.cpp'],['../BcFields3D_8h.html#a29f82db5a3afbf86723bede08d5130fe',1,'BCface(int nx, int ny, int nz, int ns, double ****vector, int bcFaceXright, int bcFaceXleft, int bcFaceYright, int bcFaceYleft, int bcFaceZright, int bcFaceZleft, const VirtualTopology3D *vct):&#160;BcFields3D.cpp']]],
+  ['bcface_5fp_1',['BCface_P',['../BcFields3D_8h.html#aaf8d4f8e80c31979a339e50513bf12aa',1,'BCface_P(int nx, int ny, int nz, double ***vector, int bcFaceXright, int bcFaceXleft, int bcFaceYright, int bcFaceYleft, int bcFaceZright, int bcFaceZleft, const VirtualTopology3D *vct):&#160;BcFields3D.cpp'],['../BcFields3D_8h.html#a0300c72e516b40a9c3827ecd2c8f31c2',1,'BCface_P(int nx, int ny, int nz, int ns, double ****vector, int bcFaceXright, int bcFaceXleft, int bcFaceYright, int bcFaceYleft, int bcFaceZright, int bcFaceZleft, const VirtualTopology3D *vct):&#160;BcFields3D.cpp']]]
 ];

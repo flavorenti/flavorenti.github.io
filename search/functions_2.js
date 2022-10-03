@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['vctopology3d_0',['VCtopology3D',['../classVCtopology3D.html#a28df5097731e681a72565dce61e7cf7e',1,'VCtopology3D']]]
+  ['findbulkvelocity_0',['findBulkVelocity',['../classCollisions.html#a4f19364750bd0552c17926b0158ba4fc',1,'Collisions']]],
+  ['findneutdensity_1',['findneutDensity',['../classCollisions.html#af2714f697582f94a838e67093b2d6e12',1,'Collisions']]]
 ];

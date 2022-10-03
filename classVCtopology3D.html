@@ -69,177 +69,31 @@ $(function() {
   <div class="headertitle"><div class="title">VCtopology3D Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="VCtopology3D_8h_source.html">VCtopology3D.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a28df5097731e681a72565dce61e7cf7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVCtopology3D.html#a28df5097731e681a72565dce61e7cf7e">VCtopology3D</a> (const Collective &amp;col)</td></tr>
+<tr class="memitem:a28df5097731e681a72565dce61e7cf7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVCtopology3D.html#a28df5097731e681a72565dce61e7cf7e">VCtopology3D</a> (const <a class="el" href="classCollective.html">Collective</a> &amp;col)</td></tr>
+<tr class="memdesc:a28df5097731e681a72565dce61e7cf7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor Define topology parameters: dimension, domain decomposition etc.  <a href="classVCtopology3D.html#a28df5097731e681a72565dce61e7cf7e">More...</a><br /></td></tr>
 <tr class="separator:a28df5097731e681a72565dce61e7cf7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5607cde2678ba48655ee4f439b769a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVCtopology3D.html#af5607cde2678ba48655ee4f439b769a7">~VCtopology3D</a> ()</td></tr>
+<tr class="memdesc:af5607cde2678ba48655ee4f439b769a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="classVCtopology3D.html#af5607cde2678ba48655ee4f439b769a7">More...</a><br /></td></tr>
 <tr class="separator:af5607cde2678ba48655ee4f439b769a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70fdf8b61de719dd4eca1980bae18092"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVCtopology3D.html#a70fdf8b61de719dd4eca1980bae18092">setup_vctopology</a> (MPI_Comm comm_old)</td></tr>
+<tr class="memdesc:a70fdf8b61de719dd4eca1980bae18092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the neighbors in the new communicator <br  />
+  <a href="classVCtopology3D.html#a70fdf8b61de719dd4eca1980bae18092">More...</a><br /></td></tr>
 <tr class="separator:a70fdf8b61de719dd4eca1980bae18092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa59f0e030403108fc0746e4dc25fe77c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVCtopology3D.html#aa59f0e030403108fc0746e4dc25fe77c">Print</a> ()</td></tr>
+<tr class="memdesc:aa59f0e030403108fc0746e4dc25fe77c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print topology info.  <a href="classVCtopology3D.html#aa59f0e030403108fc0746e4dc25fe77c">More...</a><br /></td></tr>
 <tr class="separator:aa59f0e030403108fc0746e4dc25fe77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a275c2804991619c02661c9d957c74c90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVCtopology3D.html#a275c2804991619c02661c9d957c74c90">PrintMapping</a> ()</td></tr>
+<tr class="memdesc:a275c2804991619c02661c9d957c74c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the mapping of topology.  <a href="classVCtopology3D.html#a275c2804991619c02661c9d957c74c90">More...</a><br /></td></tr>
 <tr class="separator:a275c2804991619c02661c9d957c74c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9841bcae7006397fbd3a20237b39fe0"><td class="memItemLeft" align="right" valign="top"><a id="ac9841bcae7006397fbd3a20237b39fe0" name="ac9841bcae7006397fbd3a20237b39fe0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getXLEN</b> () const</td></tr>
-<tr class="separator:ac9841bcae7006397fbd3a20237b39fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2975564de18b980aefa3b6bc9102ecf"><td class="memItemLeft" align="right" valign="top"><a id="af2975564de18b980aefa3b6bc9102ecf" name="af2975564de18b980aefa3b6bc9102ecf"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getYLEN</b> () const</td></tr>
-<tr class="separator:af2975564de18b980aefa3b6bc9102ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eba6d5e4dc97d8fc96e6ff9d5e714d7"><td class="memItemLeft" align="right" valign="top"><a id="a1eba6d5e4dc97d8fc96e6ff9d5e714d7" name="a1eba6d5e4dc97d8fc96e6ff9d5e714d7"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getZLEN</b> () const</td></tr>
-<tr class="separator:a1eba6d5e4dc97d8fc96e6ff9d5e714d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2ff2ba66ec373087c5f27d8ec760787"><td class="memItemLeft" align="right" valign="top"><a id="aa2ff2ba66ec373087c5f27d8ec760787" name="aa2ff2ba66ec373087c5f27d8ec760787"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getNprocs</b> () const</td></tr>
-<tr class="separator:aa2ff2ba66ec373087c5f27d8ec760787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9676e8ad1621c094bd4083f8dcf888f"><td class="memItemLeft" align="right" valign="top"><a id="ad9676e8ad1621c094bd4083f8dcf888f" name="ad9676e8ad1621c094bd4083f8dcf888f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getPERIODICX</b> () const</td></tr>
-<tr class="separator:ad9676e8ad1621c094bd4083f8dcf888f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f8c7c982346dca5bbc7d6a64203d9b6"><td class="memItemLeft" align="right" valign="top"><a id="a5f8c7c982346dca5bbc7d6a64203d9b6" name="a5f8c7c982346dca5bbc7d6a64203d9b6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getPERIODICY</b> () const</td></tr>
-<tr class="separator:a5f8c7c982346dca5bbc7d6a64203d9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06a23dc656ad3d0636753e52ca8b8ae"><td class="memItemLeft" align="right" valign="top"><a id="aa06a23dc656ad3d0636753e52ca8b8ae" name="aa06a23dc656ad3d0636753e52ca8b8ae"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getPERIODICZ</b> () const</td></tr>
-<tr class="separator:aa06a23dc656ad3d0636753e52ca8b8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeec5cff3fa0264ffcf874b9c2c92383"><td class="memItemLeft" align="right" valign="top"><a id="afeec5cff3fa0264ffcf874b9c2c92383" name="afeec5cff3fa0264ffcf874b9c2c92383"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getPERIODICX_P</b> () const</td></tr>
-<tr class="separator:afeec5cff3fa0264ffcf874b9c2c92383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefdd41f263a75dd94890950980f5ecff"><td class="memItemLeft" align="right" valign="top"><a id="aefdd41f263a75dd94890950980f5ecff" name="aefdd41f263a75dd94890950980f5ecff"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getPERIODICY_P</b> () const</td></tr>
-<tr class="separator:aefdd41f263a75dd94890950980f5ecff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a595cf7e3abd2c132afbfa99d3ade5119"><td class="memItemLeft" align="right" valign="top"><a id="a595cf7e3abd2c132afbfa99d3ade5119" name="a595cf7e3abd2c132afbfa99d3ade5119"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getPERIODICZ_P</b> () const</td></tr>
-<tr class="separator:a595cf7e3abd2c132afbfa99d3ade5119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad152b6f0d5db057e5ed50abba286ae05"><td class="memItemLeft" align="right" valign="top"><a id="ad152b6f0d5db057e5ed50abba286ae05" name="ad152b6f0d5db057e5ed50abba286ae05"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getCartesian_rank</b> () const</td></tr>
-<tr class="separator:ad152b6f0d5db057e5ed50abba286ae05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53f67b5d5313220d4ca9928e2b679903"><td class="memItemLeft" align="right" valign="top"><a id="a53f67b5d5313220d4ca9928e2b679903" name="a53f67b5d5313220d4ca9928e2b679903"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getXleft_neighbor</b> () const</td></tr>
-<tr class="separator:a53f67b5d5313220d4ca9928e2b679903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79737d3447bee7d87cc62134da30d412"><td class="memItemLeft" align="right" valign="top"><a id="a79737d3447bee7d87cc62134da30d412" name="a79737d3447bee7d87cc62134da30d412"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getXright_neighbor</b> () const</td></tr>
-<tr class="separator:a79737d3447bee7d87cc62134da30d412"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8c00f9369e325ec0554c64a77eb41b0"><td class="memItemLeft" align="right" valign="top"><a id="ad8c00f9369e325ec0554c64a77eb41b0" name="ad8c00f9369e325ec0554c64a77eb41b0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getYleft_neighbor</b> () const</td></tr>
-<tr class="separator:ad8c00f9369e325ec0554c64a77eb41b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2712719cf15a4c4d9c4569ee8c645ce6"><td class="memItemLeft" align="right" valign="top"><a id="a2712719cf15a4c4d9c4569ee8c645ce6" name="a2712719cf15a4c4d9c4569ee8c645ce6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getYright_neighbor</b> () const</td></tr>
-<tr class="separator:a2712719cf15a4c4d9c4569ee8c645ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4562298b06e102b8299417b7bb649bf8"><td class="memItemLeft" align="right" valign="top"><a id="a4562298b06e102b8299417b7bb649bf8" name="a4562298b06e102b8299417b7bb649bf8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getZleft_neighbor</b> () const</td></tr>
-<tr class="separator:a4562298b06e102b8299417b7bb649bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a499709d806d1068b9f33db98da93ef9b"><td class="memItemLeft" align="right" valign="top"><a id="a499709d806d1068b9f33db98da93ef9b" name="a499709d806d1068b9f33db98da93ef9b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getZright_neighbor</b> () const</td></tr>
-<tr class="separator:a499709d806d1068b9f33db98da93ef9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af59e542814678e8b1adab7527e27a72b"><td class="memItemLeft" align="right" valign="top"><a id="af59e542814678e8b1adab7527e27a72b" name="af59e542814678e8b1adab7527e27a72b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isXupper</b> () const</td></tr>
-<tr class="separator:af59e542814678e8b1adab7527e27a72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84e396ec20415289f18bd49b6d0b9830"><td class="memItemLeft" align="right" valign="top"><a id="a84e396ec20415289f18bd49b6d0b9830" name="a84e396ec20415289f18bd49b6d0b9830"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isYupper</b> () const</td></tr>
-<tr class="separator:a84e396ec20415289f18bd49b6d0b9830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a354578903409d8c96c0b01635a0bcb91"><td class="memItemLeft" align="right" valign="top"><a id="a354578903409d8c96c0b01635a0bcb91" name="a354578903409d8c96c0b01635a0bcb91"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isZupper</b> () const</td></tr>
-<tr class="separator:a354578903409d8c96c0b01635a0bcb91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e3754a051741f0cb628c603505f0908"><td class="memItemLeft" align="right" valign="top"><a id="a7e3754a051741f0cb628c603505f0908" name="a7e3754a051741f0cb628c603505f0908"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getXleft_neighbor_P</b> () const</td></tr>
-<tr class="separator:a7e3754a051741f0cb628c603505f0908"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3b90cb187d6a8e74a45c6598bcb9f3b"><td class="memItemLeft" align="right" valign="top"><a id="ae3b90cb187d6a8e74a45c6598bcb9f3b" name="ae3b90cb187d6a8e74a45c6598bcb9f3b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getXright_neighbor_P</b> () const</td></tr>
-<tr class="separator:ae3b90cb187d6a8e74a45c6598bcb9f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af75556835985776a53596404bbea7152"><td class="memItemLeft" align="right" valign="top"><a id="af75556835985776a53596404bbea7152" name="af75556835985776a53596404bbea7152"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getYleft_neighbor_P</b> () const</td></tr>
-<tr class="separator:af75556835985776a53596404bbea7152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7b34d345b794b18f3ba1193d282b142"><td class="memItemLeft" align="right" valign="top"><a id="ab7b34d345b794b18f3ba1193d282b142" name="ab7b34d345b794b18f3ba1193d282b142"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getYright_neighbor_P</b> () const</td></tr>
-<tr class="separator:ab7b34d345b794b18f3ba1193d282b142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae21fdac3e01c22dfc77809d02e1129c"><td class="memItemLeft" align="right" valign="top"><a id="aae21fdac3e01c22dfc77809d02e1129c" name="aae21fdac3e01c22dfc77809d02e1129c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getZleft_neighbor_P</b> () const</td></tr>
-<tr class="separator:aae21fdac3e01c22dfc77809d02e1129c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836382094512b3abd28694de8ec3738c"><td class="memItemLeft" align="right" valign="top"><a id="a836382094512b3abd28694de8ec3738c" name="a836382094512b3abd28694de8ec3738c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getZright_neighbor_P</b> () const</td></tr>
-<tr class="separator:a836382094512b3abd28694de8ec3738c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5543e4a365c507bc91c961012970656"><td class="memItemLeft" align="right" valign="top"><a id="aa5543e4a365c507bc91c961012970656" name="aa5543e4a365c507bc91c961012970656"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPeriodicXlower_P</b> () const</td></tr>
-<tr class="separator:aa5543e4a365c507bc91c961012970656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47b82512000ffe389a61a9b7a5a00959"><td class="memItemLeft" align="right" valign="top"><a id="a47b82512000ffe389a61a9b7a5a00959" name="a47b82512000ffe389a61a9b7a5a00959"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPeriodicXupper_P</b> () const</td></tr>
-<tr class="separator:a47b82512000ffe389a61a9b7a5a00959"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63cbd24160c3a3ffc6776a5cbdfb2f1e"><td class="memItemLeft" align="right" valign="top"><a id="a63cbd24160c3a3ffc6776a5cbdfb2f1e" name="a63cbd24160c3a3ffc6776a5cbdfb2f1e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPeriodicYlower_P</b> () const</td></tr>
-<tr class="separator:a63cbd24160c3a3ffc6776a5cbdfb2f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4b1b2d07baffb7fd14f346a5a261a3"><td class="memItemLeft" align="right" valign="top"><a id="a9f4b1b2d07baffb7fd14f346a5a261a3" name="a9f4b1b2d07baffb7fd14f346a5a261a3"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPeriodicYupper_P</b> () const</td></tr>
-<tr class="separator:a9f4b1b2d07baffb7fd14f346a5a261a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224b1e13fbece4d8efac5e805a75b47c"><td class="memItemLeft" align="right" valign="top"><a id="a224b1e13fbece4d8efac5e805a75b47c" name="a224b1e13fbece4d8efac5e805a75b47c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPeriodicZlower_P</b> () const</td></tr>
-<tr class="separator:a224b1e13fbece4d8efac5e805a75b47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee93fd0f290a44f00f19587996458761"><td class="memItemLeft" align="right" valign="top"><a id="aee93fd0f290a44f00f19587996458761" name="aee93fd0f290a44f00f19587996458761"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPeriodicZupper_P</b> () const</td></tr>
-<tr class="separator:aee93fd0f290a44f00f19587996458761"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af40c818c7fdfa6de9be197f00de361de"><td class="memItemLeft" align="right" valign="top"><a id="af40c818c7fdfa6de9be197f00de361de" name="af40c818c7fdfa6de9be197f00de361de"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>noXleftNeighbor_P</b> () const</td></tr>
-<tr class="separator:af40c818c7fdfa6de9be197f00de361de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ee1cf736a386debfe5641b4a79b5e58"><td class="memItemLeft" align="right" valign="top"><a id="a1ee1cf736a386debfe5641b4a79b5e58" name="a1ee1cf736a386debfe5641b4a79b5e58"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>noXrghtNeighbor_P</b> () const</td></tr>
-<tr class="separator:a1ee1cf736a386debfe5641b4a79b5e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45c205e2cf1103252a971c47704122f8"><td class="memItemLeft" align="right" valign="top"><a id="a45c205e2cf1103252a971c47704122f8" name="a45c205e2cf1103252a971c47704122f8"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>noYleftNeighbor_P</b> () const</td></tr>
-<tr class="separator:a45c205e2cf1103252a971c47704122f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84b0d27398452ae15b7853e15866db5f"><td class="memItemLeft" align="right" valign="top"><a id="a84b0d27398452ae15b7853e15866db5f" name="a84b0d27398452ae15b7853e15866db5f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>noYrghtNeighbor_P</b> () const</td></tr>
-<tr class="separator:a84b0d27398452ae15b7853e15866db5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a845864018d153388ce604eec67990dee"><td class="memItemLeft" align="right" valign="top"><a id="a845864018d153388ce604eec67990dee" name="a845864018d153388ce604eec67990dee"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>noZleftNeighbor_P</b> () const</td></tr>
-<tr class="separator:a845864018d153388ce604eec67990dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49f0d417f6498ae1b7777c1d4c7c1b1b"><td class="memItemLeft" align="right" valign="top"><a id="a49f0d417f6498ae1b7777c1d4c7c1b1b" name="a49f0d417f6498ae1b7777c1d4c7c1b1b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>noZrghtNeighbor_P</b> () const</td></tr>
-<tr class="separator:a49f0d417f6498ae1b7777c1d4c7c1b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fb80e7b04c490027b43b48764ed8fd5"><td class="memItemLeft" align="right" valign="top"><a id="a1fb80e7b04c490027b43b48764ed8fd5" name="a1fb80e7b04c490027b43b48764ed8fd5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasXleftNeighbor_P</b> () const</td></tr>
-<tr class="separator:a1fb80e7b04c490027b43b48764ed8fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d4f123374019542517c8fd3a55af7b"><td class="memItemLeft" align="right" valign="top"><a id="a92d4f123374019542517c8fd3a55af7b" name="a92d4f123374019542517c8fd3a55af7b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasXrghtNeighbor_P</b> () const</td></tr>
-<tr class="separator:a92d4f123374019542517c8fd3a55af7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a995cde32e86ad885176b911323021920"><td class="memItemLeft" align="right" valign="top"><a id="a995cde32e86ad885176b911323021920" name="a995cde32e86ad885176b911323021920"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasYleftNeighbor_P</b> () const</td></tr>
-<tr class="separator:a995cde32e86ad885176b911323021920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3288aea51239b5eba6d4392b0b5a3eb"><td class="memItemLeft" align="right" valign="top"><a id="ad3288aea51239b5eba6d4392b0b5a3eb" name="ad3288aea51239b5eba6d4392b0b5a3eb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasYrghtNeighbor_P</b> () const</td></tr>
-<tr class="separator:ad3288aea51239b5eba6d4392b0b5a3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb7f11bd9060f601b042a62eb11cbbf"><td class="memItemLeft" align="right" valign="top"><a id="a7fb7f11bd9060f601b042a62eb11cbbf" name="a7fb7f11bd9060f601b042a62eb11cbbf"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasZleftNeighbor_P</b> () const</td></tr>
-<tr class="separator:a7fb7f11bd9060f601b042a62eb11cbbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41886f9d269c16a8b6fb95cc31c68b17"><td class="memItemLeft" align="right" valign="top"><a id="a41886f9d269c16a8b6fb95cc31c68b17" name="a41886f9d269c16a8b6fb95cc31c68b17"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasZrghtNeighbor_P</b> () const</td></tr>
-<tr class="separator:a41886f9d269c16a8b6fb95cc31c68b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac07a1f89866378d5edd5e5123243a804"><td class="memItemLeft" align="right" valign="top"><a id="ac07a1f89866378d5edd5e5123243a804" name="ac07a1f89866378d5edd5e5123243a804"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isBoundaryProcess_P</b> () const</td></tr>
-<tr class="separator:ac07a1f89866378d5edd5e5123243a804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4adf699b325b2faea75d702dbccdaf20"><td class="memItemLeft" align="right" valign="top"><a id="a4adf699b325b2faea75d702dbccdaf20" name="a4adf699b325b2faea75d702dbccdaf20"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getcVERBOSE</b> () const</td></tr>
-<tr class="separator:a4adf699b325b2faea75d702dbccdaf20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d8c651b9a1e914e7a886f54499f3d92"><td class="memItemLeft" align="right" valign="top"><a id="a6d8c651b9a1e914e7a886f54499f3d92" name="a6d8c651b9a1e914e7a886f54499f3d92"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getCoordinates</b> (int dir) const</td></tr>
-<tr class="separator:a6d8c651b9a1e914e7a886f54499f3d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b718b12b3de1919a09f9384beec26e5"><td class="memItemLeft" align="right" valign="top"><a id="a0b718b12b3de1919a09f9384beec26e5" name="a0b718b12b3de1919a09f9384beec26e5"></a>
-const int *&#160;</td><td class="memItemRight" valign="bottom"><b>getCoordinates</b> () const</td></tr>
-<tr class="separator:a0b718b12b3de1919a09f9384beec26e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329b7753b4f61a85dc057294bff7dbfe"><td class="memItemLeft" align="right" valign="top"><a id="a329b7753b4f61a85dc057294bff7dbfe" name="a329b7753b4f61a85dc057294bff7dbfe"></a>
-const int *&#160;</td><td class="memItemRight" valign="bottom"><b>getDims</b> () const</td></tr>
-<tr class="separator:a329b7753b4f61a85dc057294bff7dbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a728ba277844255bb9dea25b003fcdfba"><td class="memItemLeft" align="right" valign="top"><a id="a728ba277844255bb9dea25b003fcdfba" name="a728ba277844255bb9dea25b003fcdfba"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getPeriods</b> (int dir) const</td></tr>
-<tr class="separator:a728ba277844255bb9dea25b003fcdfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad95c8dac4c8276d4ded4ae4fcbc2e8fd"><td class="memItemLeft" align="right" valign="top"><a id="ad95c8dac4c8276d4ded4ae4fcbc2e8fd" name="ad95c8dac4c8276d4ded4ae4fcbc2e8fd"></a>
-MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><b>getFieldComm</b> () const</td></tr>
-<tr class="separator:ad95c8dac4c8276d4ded4ae4fcbc2e8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6156c8ca44013da365249b4f5828a006"><td class="memItemLeft" align="right" valign="top"><a id="a6156c8ca44013da365249b4f5828a006" name="a6156c8ca44013da365249b4f5828a006"></a>
-MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><b>getParticleComm</b> () const</td></tr>
-<tr class="separator:a6156c8ca44013da365249b4f5828a006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >A virtual topology is a mechanism for naming the processes in a communicator in a way that fits the communication pattern better. Since our processes will communicate mainly with the nearest neighbours after the fashion of a two-dimensional grid, we create a virtual topology to reflect this fact. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a28df5097731e681a72565dce61e7cf7e" name="a28df5097731e681a72565dce61e7cf7e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28df5097731e681a72565dce61e7cf7e">&#9670;&nbsp;</a></span>VCtopology3D()</h2>
 
@@ -249,14 +103,21 @@ MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><b>getParticleComm</
         <tr>
           <td class="memname">VCtopology3D::VCtopology3D </td>
           <td>(</td>
-          <td class="paramtype">const Collective &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classCollective.html">Collective</a> &amp;&#160;</td>
           <td class="paramname"><em>col</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >constructor: Define topology parameters: dimension, domain decomposition,...</p>
-<p >DEFINE THE Topology HERE, setting XLEN,YLEN,ZLEN </p>
+
+<p>constructor Define topology parameters: dimension, domain decomposition etc. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">col</td><td>...?</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>DEFINE THE Topology HERE, setting XLEN,YLEN,ZLEN </p>
 
 </div>
 </div>
@@ -274,6 +135,8 @@ MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><b>getParticleComm</
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>destructor </p>
 <p >destructor </p>
 
 </div>
@@ -293,7 +156,8 @@ MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><b>getParticleComm</
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Print topology info</p>
+
+<p>Print topology info. </p>
 <p >print topology info </p>
 
 </div>
@@ -312,7 +176,8 @@ MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><b>getParticleComm</
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Print the mapping of topology</p>
+
+<p>Print the mapping of topology. </p>
 <p >print cartesian rank of neighbors and coordinate of process </p>
 
 </div>
@@ -332,9 +197,16 @@ MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><b>getParticleComm</
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Find the neighbors in the new communicator <br  />
-</p>
-<p >Within CART_COMM, processes find about their new rank numbers, their cartesian coordinates, and their neighbors <br  />
+
+<p>Find the neighbors in the new communicator <br  />
+ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">old_comm</td><td>MPI communicator</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Within CART_COMM, processes find about their new rank numbers, their cartesian coordinates, and their neighbors <br  />
  </p>
 
 </div>
@@ -346,7 +218,7 @@ MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><b>getParticleComm</
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 29 2022 16:05:35 for iPIC3DxPEACE by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Mon Oct 3 2022 18:40:33 for iPIC3DxPEACE by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>
